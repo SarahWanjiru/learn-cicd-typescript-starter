@@ -6,7 +6,7 @@ import tsParser from "@typescript-eslint/parser";
 import { defineConfig } from "eslint/config";
 
 export default defineConfig([
-  { ignores: ["dist/**"] },
+  { ignores: ["dist/**", "drizzle.config.ts", "src/tests/.test.ts"] },
   {
     files: ["**/*.{js,mjs,cjs}"],
     plugins: { js },
