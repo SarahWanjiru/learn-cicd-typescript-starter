@@ -42,5 +42,9 @@ jobs:
         run: npm ci
 
       - name: Style
-        run: npm run format:check
+        run: npm run format:check && npm run lint
+
+
+
+  
       
